@@ -51,3 +51,11 @@ resultado_valores_reais.write\
     .format("csv")\
     .option("header", "true")\
     .save("dbfs:/databricks-results/prata/valores_reais")
+
+# COMMAND ----------
+
+!ls ../../../../dbfs/databricks-results/prata/valores_reais/
+
+# COMMAND ----------
+
+
